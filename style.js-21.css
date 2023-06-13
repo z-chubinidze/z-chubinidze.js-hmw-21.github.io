@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Inter-Bold';
+    src:url(Inter-Bold.ttf)
+}
+@font-face{
+    font-family:'Inter-Regular';
+    src:url(Inter-Regular.ttf)
+}
+
+body{
+    background: #F5F5F5;
+}
+h3{
+    font-family:'Inter-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+.enter{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.mein-box{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 70px;
+}
+label{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+input{
+    background-color: #D9D9D9 !important;
+    border-radius: 10px;
+    height: 54px;
+    margin-bottom: 24px;
+}
+.btn{
+    background-color:  #2E5B9D;
+    border-radius: 10px;
+    height: 54px;
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.btn:hover{
+    background-color:  #2E5B9D;
+    color: #FFFFFF;
+}
+.btn:active{
+    background-color:  #2E5B9D;
+    color: #FFFFFF;
+}
+.results{
+    font-family:'Inter-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 16px;
+}
+.mesage{
+    font-family:'Inter-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f00d0d;
+}
